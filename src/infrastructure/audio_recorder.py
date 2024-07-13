@@ -1,5 +1,4 @@
 import sounddevice as sd
-import numpy as np
 from domain.audio_repository import AudioRepository
 
 class AudioRecorder(AudioRepository):
