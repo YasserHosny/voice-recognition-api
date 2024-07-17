@@ -1,1 +1,1 @@
-web: python interface.app
+web: python -m .\src\interface\app
