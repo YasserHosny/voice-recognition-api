@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Set the executable permission for this script
+chmod +x build.sh
+
 # Update package list and install PortAudio
 apt-get update && apt-get install -y portaudio19-dev
 
