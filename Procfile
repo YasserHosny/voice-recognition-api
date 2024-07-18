@@ -1,1 +1,1 @@
-web: python src/interface/app.py
+web: ./build.sh && python src/interface/app.py
